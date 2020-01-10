@@ -1,7 +1,7 @@
 <template>
 <div>
   <v-card
-    height="400"
+    height="100vh"
     width="256"
     class="mx-auto"
   >

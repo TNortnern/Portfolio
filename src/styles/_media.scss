@@ -1,0 +1,52 @@
+@import "screens";
+
+// Small devices
+@mixin small($identifier: "up") {
+  @if ($identifier == "down") {
+    @media (max-width: #{$screen-sm-min}) {
+      @content;
+    }
+  } @else {
+    @media (min-width: #{$screen-sm-min}) {
+      @content;
+    }
+  }
+}
+
+// Medium devices
+@mixin medium($identifier: "up") {
+  @if ($identifier == "down") {
+    @media (max-width: #{$screen-md-min}) {
+      @content;
+    }
+  } @else {
+    @media (min-width: #{$screen-md-min}) {
+      @content;
+    }
+  }
+}
+// Large devices
+@mixin large($identifier: "up") {
+  @if ($identifier == "down") {
+    @media (max-width: #{$screen-lg-min}) {
+      @content;
+    }
+  } @else {
+    @media (min-width: #{$screen-lg-min}) {
+      @content;
+    }
+  }
+}
+
+// Extra large devices
+@mixin xlarge($identifier: "up") {
+  @if ($identifier == "down") {
+    @media (max-width: #{$screen-xl-min}) {
+      @content;
+    }
+  } @else {
+    @media (min-width: #{$screen-xl-min}) {
+      @content;
+    }
+  }
+}
