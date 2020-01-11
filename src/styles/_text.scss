@@ -1,0 +1,16 @@
+@mixin clickable {
+    color: black;
+    cursor: pointer;
+    transition: $default-timing;
+    &:hover {
+       color: $orange-color; 
+    }
+}
+@mixin close-button {
+    color: black;
+    cursor: pointer;
+    transition: $default-timing;
+    &:hover {
+       color: red; 
+    }
+}
