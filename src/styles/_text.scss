@@ -1,5 +1,13 @@
-@mixin clickable {
-    color: black;
+// @mixin clickable {
+//     color: black;
+//     cursor: pointer;
+//     transition: $default-timing;
+//     &:hover {
+//        color: $orange-color; 
+//     }
+// }
+@mixin clickable($color: 'black') {
+    color: $color;
     cursor: pointer;
     transition: $default-timing;
     &:hover {

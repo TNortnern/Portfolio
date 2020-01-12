@@ -1,3 +1,7 @@
-$maincolor: 'red';
+$maincolor: "red";
 $white_color: #ffffff;
 $orange-color: #fa6e36;
+
+@mixin main-orange-rgb($ratio: 0.8) {
+  background-color: rgba(250, 109, 54, $ratio);
+}

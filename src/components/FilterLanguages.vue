@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h4>Languages</h4>
+  <div class="filter-languages">
+    <h4 class="text-center">Languages</h4>
     <ul>
       <div>
         <li @click="included = [], $parent.included = []" class="projects__filter-name">
@@ -54,12 +54,15 @@ export default {
 
 <style lang="scss" scoped>
 @import "../styles";
-
+ul {
+    display: flex;
+    justify-content: center;
+}
 li {
   height: auto;
   display: flex;
   justify-content: space-between;
-  margin: 10px 0px;
+  margin: 0px 12px;
   font-size: 20px;
   span {
     @include close-button;
@@ -68,5 +71,8 @@ li {
 }
 .projects__filter-name {
   @include clickable;
+}
+.filter-languages {
+    border: 1px solid gray;
 }
 </style>
