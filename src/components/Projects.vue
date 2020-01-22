@@ -1,7 +1,7 @@
 <template>
 <div class="projects">
     <h1 class="text-center">Portfolio</h1>
-    <p class="text-center">My Projects</p>
+    <h2 class="text-center">My Projects</h2>
   <div class="projects__container">
     <!-- <FilterLanguages /> -->
     <ProjectItems :included="included" />

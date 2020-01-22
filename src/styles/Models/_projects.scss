@@ -3,19 +3,18 @@
 //   grid-template-columns: 20% 80%;
 //   height: 700px;
   justify-content: space-between;
-    border: 1px solid gray;
 
 }
 p {
     // color: gray;
 }
 h1 {
-    border-top: 1px solid gray;
-    margin: 0px;
-    margin-top: 20px;
-//   @include main-orange-rgb(0.9);
-    padding: 20px 0px;
-    // color: gray;
+  padding-top: 10px;
+}
+
+h2 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
 }
 .projects {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1a/Abstract-background-white-12.jpg');

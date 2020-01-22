@@ -10,6 +10,16 @@ const projects = [
     type: "Website"
   },
   {
+    name: "Trello Clone(In Progress)",
+    description: "An application that allows users to manage task on a more complex level.",
+    images: [
+      "https://www.clientresourcesinc.com/wp-content/uploads/2018/06/vuejs_logo.png",
+      "https://vuejsexamples.com/content/images/2017/10/Vue-Awesome.gif"
+    ],
+    technologies: ["Vue", "HTML/CSS", "SCSS"],
+    type: "Website"
+  },
+  {
     name: "Northern's Factory",
     description:
       "A clothing website that has a cart for multiple orders. It also has a login system that grants a discount.",

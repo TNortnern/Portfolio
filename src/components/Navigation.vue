@@ -1,7 +1,7 @@
 <template>
   <div class="navigation">
-      <nav class="navbar navbar-expand-lg navbar-light bg-orange">
-  <a class="navbar-brand" href="#">Navbar</a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-orange fixed-top">
+  <a class="navbar-brand" href="#">TN</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -38,10 +38,10 @@ export default {
 
   },
   mounted () {
-      window.document.body.onscroll = () => {
-          // eslint-disable-next-line no-console
-          console.log(this.$refs.desktop.scrollHeight)
-      }
+      // window.document.body.onscroll = () => {
+      //     // eslint-disable-next-line no-console
+      //     console.log(this.$refs.desktop.scrollHeight)
+      // }
   }
 };
 </script>
@@ -49,6 +49,9 @@ export default {
 <style lang="scss" scoped>
 @import "../styles";
 .navigation {
+  .nav-link {
+    font-size: 17px;
+  }
   a, .nav-link {
     color: rgba(0, 0, 0, 0.719);
     &:hover {
@@ -87,6 +90,6 @@ export default {
   }
 }
 .bg-orange {
-  background-color: $orange-color;
+  background-color: #fc7b48;
 }
 </style>
