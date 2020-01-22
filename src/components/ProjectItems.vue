@@ -5,7 +5,6 @@
         v-for="(project, key) in filteredProjects"
         :key="key"
         class="card"
-        style="width: 23%;"
       >
         <ProjectModal v-if="modalItem" :project="modalItem" />
         <div
@@ -21,7 +20,12 @@
         </div>
         <div class="card-body">
           <h5 class="card-title">{{ project.name }}</h5>
-          <p class="text-center">{{ project.type }}</p>
+          <h5 class="text-center project-subtitle">Type:</h5>
+          <p class="text-center project-type">{{ project.type }}</p>
+          <h5 class="text-center project-subtitle">Technologies:</h5>
+          <div class="d-flex justify-content-center align-content-center">
+          <span v-for="(tech, key) in project.technologies" :key="key" class="text-center">{{ tech }} </span>
+          </div>
           <!-- <p class="card-text">
             {{ closeOff(project.description, 80, '...') }}
           </p> -->
@@ -96,9 +100,13 @@ img {
   max-height: 150px;
   width: 100%;
 }
+.project-subtitle {
+    font-size: 1.3em;
+}
 .card {
+  width: 24%;
   &:hover {
-    transform: scale(1.08);
+    transform: scale(1.02);
     .card-action {
       opacity: 1;
       height: 100%;
@@ -122,13 +130,13 @@ img {
 }
 .card {
   transition: $default-timing;
-  max-height: 320px;
+  height: 500px;
   margin: 15px 7px;
   box-shadow: 0 20px 60px 0 rgba(0, 0, 0, 0.15);
   cursor: zoom-in;
-  p {
+  .project-type {
     color: $orange-color;
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 }
 .w-100 {
@@ -140,5 +148,11 @@ img {
   text-align: center;
   border-top: 1px dotted black;
   border-bottom: 1px dotted black;
+}
+p,span {
+    color: $orange-color;
+}
+span {
+    margin: 0px 5px;
 }
 </style>

@@ -6,7 +6,7 @@ const projects = [
       "https://www.clientresourcesinc.com/wp-content/uploads/2018/06/vuejs_logo.png",
       "https://vuejsexamples.com/content/images/2017/10/Vue-Awesome.gif"
     ],
-    technologies: ["VueJS", "HTML/CSS", "SCSS"],
+    technologies: ["Vue", "HTML/CSS", "SCSS"],
     type: "Website"
   },
   {

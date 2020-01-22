@@ -17,9 +17,16 @@
           </div>
           <div>
             <span
+              @click="included = [...included, language], $parent.included = [...$parent.included, language]"
+              v-if="included.indexOf(language) == -1"
+              ><i class="far fa-square"></i></span
+            >
+          </div>
+          <div>
+            <span
               @click="removeAsFilter(language)"
               v-if="included.indexOf(language) !== -1"
-              >X</span
+              ><i class="fas fa-square"></i></span
             >
           </div>
         </li>
@@ -61,7 +68,8 @@ ul {
 li {
   height: auto;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   margin: 0px 12px;
   font-size: 20px;
   span {
@@ -74,5 +82,9 @@ li {
 }
 .filter-languages {
     border: 1px solid gray;
+}
+h4 {
+    font-size: 1.5em;
+    padding: 10px;
 }
 </style>

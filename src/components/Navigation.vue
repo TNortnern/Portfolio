@@ -1,24 +1,32 @@
 <template>
-  <div class="custom-nav">
-      
-    <MobileNavigation />
-      <img ref="tester" width="100%" height="100%" src="https://images.unsplash.com/photo-1543013309-0d1f4edeb868?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=723&q=80" alt="">
-
-    <div class="custom-nav__items" ref="desktop">
-      <ul>
-        <li><a href="">About</a></li>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </div>
+  <div class="navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-orange">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
   </div>
 </template>
 
 <script>
-import MobileNavigation from "./MobileNavigation";
+// import MobileNavigation from "./MobileNavigation";
 export default {
   components: {
-    MobileNavigation
+    // MobileNavigation
   },
   data: () => ({
       currentScroll: 0
@@ -40,9 +48,17 @@ export default {
 
 <style lang="scss" scoped>
 @import "../styles";
+.navigation {
+  a, .nav-link {
+    color: rgba(0, 0, 0, 0.719);
+    &:hover {
+      color: darken(black, 18%);
+    }
+  }
+}
 .custom-nav {
   a {
-    color: $orange-color;
+    color: #fff;
     &:hover {
       color: lighten($orange-color, 8%);
     }
@@ -69,5 +85,8 @@ export default {
         margin: 0px 40px;
     }
   }
+}
+.bg-orange {
+  background-color: $orange-color;
 }
 </style>
