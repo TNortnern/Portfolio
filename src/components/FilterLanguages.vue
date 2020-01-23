@@ -4,7 +4,20 @@
     <ul>
       <div>
         <li @click="included = [], $parent.included = []" class="projects__filter-name">
-          All
+          <div>All</div>
+           <div>
+            <span
+              @click="included = [], $parent.included = []"
+              v-if="included.length"
+              ><i class="far fa-square"></i></span
+            >
+          </div>
+          <div>
+            <span
+              v-if="!included.length"
+              ><i class="fas fa-square"></i></span
+            >
+          </div>
         </li>
       </div>
       <div v-for="(language, key) in languages" :key="key">
@@ -64,6 +77,7 @@ export default {
 ul {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 li {
   height: auto;
@@ -81,7 +95,7 @@ li {
   @include clickable;
 }
 .filter-languages {
-    border: 1px solid gray;
+    // border: 1px solid gray;
 }
 h4 {
     font-size: 1.5em;

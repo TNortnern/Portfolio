@@ -1,9 +1,9 @@
 <template>
-<div class="projects">
+<div id="portfolio" class="projects">
     <h1 class="text-center">Portfolio</h1>
     <h2 class="text-center">My Projects</h2>
   <div class="projects__container">
-    <!-- <FilterLanguages /> -->
+    <FilterLanguages />
     <ProjectItems :included="included" />
   </div>
 </div>
@@ -11,11 +11,11 @@
 
 <script>
 /* eslint-disable no-console */
-// import FilterLanguages from "./FilterLanguages";
+import FilterLanguages from "./FilterLanguages";
 import ProjectItems from './ProjectItems';
 export default {
   components: {
-    // FilterLanguages,
+    FilterLanguages,
     ProjectItems
   },
   data: () => ({

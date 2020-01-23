@@ -45,9 +45,9 @@ export default {
       padding: 7px;
       font-size: 20px;
       a {
-        color: $orange-color;
+        color: $theme-color;
         &:hover {
-            color: lighten($orange-color, 8%);
+            color: lighten($theme-color, 8%);
         }
       }
     }
@@ -57,7 +57,7 @@ export default {
   }
 }
 .mobile-navigation__hamburger {
-  color: $orange-color;
+  color: $theme-color;
   margin-top: 2px;
   font-size: 25px;
   text-align: center;

@@ -11,12 +11,13 @@ const projects = [
   },
   {
     name: "Trello Clone(In Progress)",
-    description: "An application that allows users to manage task on a more complex level.",
+    description:
+      "An application that allows users to manage task on a more complex level. Uses Redux for global state management.",
     images: [
       "https://www.clientresourcesinc.com/wp-content/uploads/2018/06/vuejs_logo.png",
       "https://vuejsexamples.com/content/images/2017/10/Vue-Awesome.gif"
     ],
-    technologies: ["Vue", "HTML/CSS", "SCSS"],
+    technologies: ["React", "SCSS"],
     type: "Website"
   },
   {
@@ -31,12 +32,23 @@ const projects = [
     type: "Website"
   },
   {
+    name: "AGSelect",
+    description:
+      "A real world project for the AGSelect food production company. The primary goal is to contact Hamilton.",
+    images: [
+      "https://i.imgur.com/ayHrjvT.png",
+      "https://vuejsexamples.com/content/images/2017/10/Vue-Awesome.gif"
+    ],
+    technologies: ["HTML/CSS", "Vanilla JavaScript"],
+    type: "Website"
+  },
+  {
     name: "Edgewood Creamery",
     description:
       "A real world app for the Edgewood Creamery company. Customers can order history (place the same order), place a new order, and cancel an order. After the customer submits, this order gets sent to the Creamery as a pdf and a thank you page shows up. It also has a in depth admin panel that makes the admin users feel complete in control.",
     images: [
+      "https://raw.githubusercontent.com/TNortnern/Edgewood-Creamery-Mobile-App/edgewood-fe/Edgewood-FE/assets/logo.png?token=AKOLNBGWDOR6BKTG34HDSPC6GJ6KS",
       "https://apis.mail.yahoo.com/ws/v3/mailboxes/@.id==VjN-20Xv0EDfAFBdMTbpKorOQBFiUnVeIWA-r5jW55GfPWndDiEPzbwlOwDjRMXAfIxR4QS589m2ULn4HOf3kMCF_g/messages/@.id==AJFtpqEDV28EXhppRQEZQJk9ll8/content/parts/@.id==2/thumbnail?appId=YMailNorrin&downloadWhenThumbnailFails=true&pid=2",
-      "https://vuejsexamples.com/content/images/2017/10/Vue-Awesome.gif"
     ],
     technologies: ["React Native", "React", "Laravel"],
     type: "Mobile Application"
@@ -49,17 +61,6 @@ const projects = [
       "https://vuejsexamples.com/content/images/2017/10/Vue-Awesome.gif"
     ],
     technologies: ["Vue", "HTML/CSS", "Vanilla JavaScript"],
-    type: "Website"
-  },
-  {
-    name: "AGSelect",
-    description:
-      "A real world project for the AGSelect food production company. The primary goal is to contact Hamilton.",
-    images: [
-      "https://i.imgur.com/ayHrjvT.png",
-      "https://vuejsexamples.com/content/images/2017/10/Vue-Awesome.gif"
-    ],
-    technologies: ["HTML/CSS", "Vanilla JavaScript"],
     type: "Website"
   },
   {

@@ -11,7 +11,7 @@
     cursor: pointer;
     transition: $default-timing;
     &:hover {
-       color: $orange-color; 
+       color: $theme-color; 
     }
 }
 @mixin close-button {

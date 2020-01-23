@@ -1,11 +1,7 @@
 <template>
   <div>
     <transition-group name="fade" class="project-items">
-      <div
-        v-for="(project, key) in filteredProjects"
-        :key="key"
-        class="card"
-      >
+      <div v-for="(project, key) in filteredProjects" :key="key" class="card">
         <ProjectModal v-if="modalItem" :project="modalItem" />
         <div
           class="card-action"
@@ -24,7 +20,12 @@
           <p class="text-center project-type">{{ project.type }}</p>
           <h5 class="text-center project-subtitle">Technologies:</h5>
           <div class="d-flex justify-content-center align-content-center">
-          <span v-for="(tech, key) in project.technologies" :key="key" class="text-center">{{ tech }} </span>
+            <span
+              v-for="(tech, key) in project.technologies"
+              :key="key"
+              class="text-center"
+              >{{ tech }}
+            </span>
           </div>
           <!-- <p class="card-text">
             {{ closeOff(project.description, 80, '...') }}
@@ -101,20 +102,11 @@ img {
   width: 100%;
 }
 .project-subtitle {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
-.card {
-  width: 24%;
-  &:hover {
-    transform: scale(1.02);
-    .card-action {
-      opacity: 1;
-      height: 100%;
-    }
-  }
-}
+
 .card-action {
-  @include main-orange-rgb(0.863);
+  @include theme-color-rgb(0.863);
   height: 0px;
   position: absolute;
   width: 100%;
@@ -129,14 +121,29 @@ img {
   cursor: zoom-in;
 }
 .card {
+  width: 24%;
+  &:hover {
+    transform: scale(1.02);
+    .card-action {
+      opacity: 1;
+      height: 100%;
+    }
+  }
   transition: $default-timing;
   height: 500px;
   margin: 15px 7px;
   box-shadow: 0 20px 60px 0 rgba(0, 0, 0, 0.15);
   cursor: zoom-in;
   .project-type {
-    color: $orange-color;
+    color: $theme-color;
     font-size: 1.1em;
+  }
+  @include large("down") {
+    min-width: 46%;
+    height: 600px;
+  }
+  @include small("down") {
+    width: 70%;
   }
 }
 .w-100 {
@@ -149,10 +156,11 @@ img {
   border-top: 1px dotted black;
   border-bottom: 1px dotted black;
 }
-p,span {
-    color: $orange-color;
+p,
+span {
+  color: $theme-color;
 }
 span {
-    margin: 0px 5px;
+  margin: 0px 5px;
 }
 </style>
