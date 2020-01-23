@@ -20,10 +20,10 @@
           <p>
             {{ project.description }}
           </p>
-          <a :href="project.links.hosted" class="uk-button uk-button-primary" type="button">
+          <a target="__blank" :href="project.links.hosted" class="uk-button uk-button-primary" type="button">
             View Project
           </a>
-          <a :href="project.links.code" class="uk-button uk-button-primary" type="button">
+          <a target="__blank" :href="project.links.code" class="uk-button uk-button-primary" type="button">
             View Code
           </a>
           <button
