@@ -9,7 +9,12 @@ Vue.config.productionTip = false
 const useScrollActive = Vue.use(scrollactive)
 new Vue({
   created () {
-    AOS.init()
+    AOS.init({
+      easing: "ease-out-back",
+      duration: 500,
+      delay: 120,
+      once: true
+    });
   },
   vuetify,
   useScrollActive,

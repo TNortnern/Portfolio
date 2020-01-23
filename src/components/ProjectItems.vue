@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div data-aos="fade-up">
     <transition-group name="fade" class="project-items">
       <div v-for="(project, key) in filteredProjects" :key="key" class="card">
         <ProjectModal v-if="modalItem" :project="modalItem" />

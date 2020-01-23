@@ -1,8 +1,8 @@
 <template>
-<div id="portfolio" class="projects">
+<div data-aos="fade-in" id="portfolio" class="projects">
     <h1 class="text-center">Portfolio</h1>
     <h2 class="text-center">My Projects</h2>
-  <div class="projects__container">
+  <div data-aos="fade-left" class="projects__container">
     <FilterLanguages />
     <ProjectItems :included="included" />
   </div>

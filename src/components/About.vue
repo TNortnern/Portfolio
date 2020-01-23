@@ -1,9 +1,9 @@
 <template>
   <div id="about" class="about">
     <div class="container">
-      <h1>About</h1>
+      <h1 data-aos="zoom-in">About</h1>
       <div>
-        <div class="about__text">
+        <div data-aos="zoom-in-up" class="about__text">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat vitae
           consequatur expedita ab labore iusto culpa nostrum incidunt, illum
           atque suscipit reiciendis? Animi quidem, ad ducimus repellat cum
@@ -18,7 +18,7 @@
       </div>
       <div class="d-flex justify-content-center about__experience">
         <div>
-          <div class="about__experience-item">
+          <div data-aos="fade-left" class="about__experience-item">
             <div>
               <img
                 src="http://res.publicdomainfiles.com/pdf_view/95/13946356211860.png"
@@ -30,7 +30,7 @@
               <p>- 6 months internship at Marlin Network</p>
             </div>
           </div>
-          <div class="about__experience-item">
+          <div data-aos="fade-right" class="about__experience-item">
             <div>
               <img
                 src="https://cdn.pixabay.com/photo/2012/04/28/18/48/mark-43972_960_720.png"
@@ -46,7 +46,7 @@
               </ul>
             </div>
           </div>
-          <div class="about__experience-item">
+          <div data-aos="fade-up" class="about__experience-item">
             <div>
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Circle-icons-trophy_%28dark%29.svg/512px-Circle-icons-trophy_%28dark%29.svg.png"

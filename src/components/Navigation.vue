@@ -14,7 +14,7 @@
           />
         </div>
         <h1 data-aos="fade-left">Web Developer</h1>
-        <div class="navigation__caption__links">
+        <div data-aos="fade-up" class="navigation__caption__links">
           <a href="https://docdro.id/pLITdUe">
             <i class="fas fa-file"></i>
           </a>
@@ -116,7 +116,7 @@ $white-color: rgba(255, 255, 255, 0.63);
   }
 }
 .bg-theme {
-  background-color: $theme-color;
+  background-color: rgba(0, 0, 0, 0.89);
   a {
     color: $white-color !important;
   }
