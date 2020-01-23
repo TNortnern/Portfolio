@@ -13,7 +13,8 @@ new Vue({
       easing: "ease-out-back",
       duration: 500,
       delay: 120,
-      once: true
+      once: true,
+      disable: 'mobile'
     });
   },
   vuetify,

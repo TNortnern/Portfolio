@@ -57,8 +57,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../styles/index.scss';
 .uk-button {
   margin: 0px 5px;
+   @include small('down') {
+     margin: 4px 5px;
+  }
 }
 .uk-body {
     padding: 0px;
@@ -73,6 +77,12 @@ ul {
 
 .uk-modal {
   z-index: 1500;
+}
+
+.uk-modal-dialog {
+  @include small('down') {
+
+  }
 }
 
 </style>

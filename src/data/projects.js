@@ -97,7 +97,7 @@ const projects = [
     technologies: ["Vue", "HTML/CSS", "Vanilla JavaScript"],
     type: "Website",
     links: {
-      hosted: "https://trayvonnorthern.com",
+      hosted: "https://trayvonnorthern.com/portfolio1",
       code: "https://github.com/TNortnern/Portfolio-VueJs"
     }
   },

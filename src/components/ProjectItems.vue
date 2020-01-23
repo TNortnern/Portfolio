@@ -145,7 +145,7 @@ img {
     height: 600px;
   }
   @include small("down") {
-    width: 70%;
+    width: 90%;
   }
 }
 .w-100 {

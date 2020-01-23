@@ -49,11 +49,15 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+@import '../styles/index.scss';
 .contact {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1a/Abstract-background-white-12.jpg");
   background-size: cover;
   .form-group {
     width: 60%;
+    @include small('down') {
+      width: 100%;
+    }
   }
 }
 </style>

@@ -4,16 +4,8 @@
       <h1 data-aos="zoom-in">About</h1>
       <div>
         <div data-aos="zoom-in-up" class="about__text">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat vitae
-          consequatur expedita ab labore iusto culpa nostrum incidunt, illum
-          atque suscipit reiciendis? Animi quidem, ad ducimus repellat cum
-          accusantium deleniti et nemo dicta, sed inventore sunt quasi,
-          distinctio dignissimos deserunt? Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Blanditiis, quis praesentium beatae ipsa
-          sit debitis accusantium quam eligendi totam quo qui magni,
-          voluptatibus quod aliquam laboriosam magnam optio recusandae hic
-          repellat quos sapiente minima. Repellendus nesciunt consectetur quos
-          id! Ipsa?
+         Hello I'm Trayvon Northern, the Web Developer. I'm a <a href="#awards" class="scrollactive-item">award winning</a> Computer Science graduate. I enjoy programming and solving problems, as a Web Developer, I prefer the frontend as
+         I'm more of a visual person but not limited to only frontend. I want to keep growing as a Developer so in my free time, I create side-projects trying things I've haven't tried.
         </div>
       </div>
       <div class="d-flex justify-content-center about__experience">
@@ -46,14 +38,14 @@
               </ul>
             </div>
           </div>
-          <div data-aos="fade-up" class="about__experience-item">
-            <div>
+          <div id="awards" data-aos="fade-up" class="about__experience-item">
+            <div >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Circle-icons-trophy_%28dark%29.svg/512px-Circle-icons-trophy_%28dark%29.svg.png"
                 alt=""
               />
             </div>
-            <div>
+            <div >
               <h2>Awards</h2>
               <p>- Hack 4 Good MO 1st place</p>
             </div>
