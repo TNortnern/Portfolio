@@ -9,7 +9,9 @@
           @click="modalItem = project"
           uk-toggle
         >
-          <!-- Click to View -->
+          <span class="project-items-click-text">
+          Press Again to View
+          </span>
         </div>
         <div class="card-image">
           <img :src="project.images[0]" class="card-img-top" alt="..." />
@@ -162,5 +164,12 @@ span {
 }
 span {
   margin: 0px 5px;
+}
+.project-items-click-text {
+  opacity: 0;
+  @include medium('down') {
+    opacity:1;
+    color: white;
+  }
 }
 </style>

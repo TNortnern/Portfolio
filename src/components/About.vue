@@ -40,9 +40,9 @@
             <div>
               <h2>Certifications</h2>
               <ul>
-                  <li>- 98-383:MTA Programming using HTML and CSS</li>
-                  <li>- 98-384:MTA Programming use JavaScript</li>
-                  <li>- 98-386:MTA: Programming using MySQL</li>
+                <li>- 98-383:MTA Programming using HTML and CSS</li>
+                <li>- 98-384:MTA Programming use JavaScript</li>
+                <li>- 98-386:MTA: Programming using MySQL</li>
               </ul>
             </div>
           </div>
@@ -73,12 +73,13 @@ export default {};
 .about {
   background-color: $theme-color;
   color: white;
-  h2, h1 {
-      color: white;
+  h2,
+  h1 {
+    color: white;
   }
   h2 {
-      border: none;
-      padding-left: 25px;
+    border: none;
+    padding-left: 25px;
   }
   img {
     // border-radius: 50%;
@@ -86,19 +87,23 @@ export default {};
   }
 }
 .about__experience {
-    margin-top: 40px;
-    ul {
-        list-style: none;
-    }
+  margin-top: 40px;
+  ul {
+    list-style: none;
+  }
 }
 .about__experience-item {
   display: flex;
   margin-top: 20px;
   p {
-      padding-left: 20px;
+    padding-left: 20px;
   }
   img {
-      width: 300px;
+    width: 300px;
+  }
+  @include medium("down") {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 </style>

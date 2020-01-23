@@ -7,7 +7,7 @@
           <h2 class="uk-modal-title">{{ project.name }}</h2>
         </div>
         <div class="uk-modal-body">
-          <ProjectSlider :images="project.images" />
+          <ProjectSlider :project="project" :images="project.images" />
         </div>
         <div class="uk-modal-footer uk-text-center">
           <p>Technologies:</p>
@@ -20,12 +20,12 @@
           <p>
             {{ project.description }}
           </p>
-          <button class="uk-button uk-button-primary" type="button">
+          <a :href="project.links.hosted" class="uk-button uk-button-primary" type="button">
             View Project
-          </button>
-          <button class="uk-button uk-button-primary" type="button">
+          </a>
+          <a :href="project.links.code" class="uk-button uk-button-primary" type="button">
             View Code
-          </button>
+          </a>
           <button
             class="uk-button uk-button-default uk-modal-close"
             type="button"
@@ -65,6 +65,14 @@ export default {
 }
 ul {
    list-style: none;
+}
+
+.a.uk-button {
+  color: white;
+}
+
+.uk-modal {
+  z-index: 1500;
 }
 
 </style>

@@ -1,5 +1,6 @@
 <template>
   <div id="contact" class="contact">
+    <h1 class="text-center">Let's chat</h1>
     <form
       action="mailto:traynorthern@yahoo.com?subject=Oppurtunity"
       class="container mx-auto"
@@ -33,7 +34,7 @@
         </div>
         <div class="form-group mx-auto">
           <label for="message">Message</label>
-          <textarea class="form-control" id="message" rows="3"></textarea>
+          <textarea placeholder="Leave me a message..." class="form-control" id="message" rows="3"></textarea>
         </div>
         <div class="mx-auto text-center">
           <button type="submit" class="btn btn-primary">Contact</button>

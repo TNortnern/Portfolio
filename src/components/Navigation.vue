@@ -8,10 +8,20 @@
   >
     <div class="navigation__caption">
       <div>
-        <div>
-          <img src="https://images.unsplash.com/photo-1555066932-e78dd8fb77bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" />
+        <div data-aos="fade-right">
+          <img
+            src="https://images.unsplash.com/photo-1555066932-e78dd8fb77bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+          />
         </div>
-        <h1>Web Developer</h1>
+        <h1 data-aos="fade-left">Web Developer</h1>
+        <div class="navigation__caption__links">
+          <a href="https://docdro.id/pLITdUe">
+            <i class="fas fa-file"></i>
+          </a>
+          <a href="https://github.com/TNortnern">
+            <i class="fab fa-github-square" id="githubIcon"></i>
+          </a>
+        </div>
       </div>
     </div>
     <nav
@@ -65,11 +75,11 @@ export default {
     }
   },
   computed: {
-    scrolledBy () {
+    scrolledBy() {
       if (this.scrollPosition > 715) {
-        return true
+        return true;
       }
-      return false
+      return false;
     }
   },
   mounted() {
@@ -119,6 +129,7 @@ $white-color: rgba(255, 255, 255, 0.63);
   color: $active !important;
   font-weight: bold;
 }
+
 .navigation__caption {
   position: absolute;
   display: flex;
@@ -142,6 +153,18 @@ $white-color: rgba(255, 255, 255, 0.63);
 }
 .navbar-nav {
   justify-content: center;
-    width: 100%;
+  width: 100%;
+}
+.navigation__caption__links {
+  font-size: 60px;
+  text-align: center;
+  i {
+    color: white;
+    margin: 0 5px;
+    transition: $default-timing;
+    &:hover {
+      color: #1379d8;
+    }
+  }
 }
 </style>
