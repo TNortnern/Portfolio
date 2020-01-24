@@ -119,7 +119,7 @@ $white-color: rgba(255, 255, 255, 0.555);
   background-color: rgba(0, 0, 0, 0.89);
   a {
     color: $white-color;
-    transition: .35s ease-in;
+    transition: .15s ease-in;
     &:hover {
       color: white;
     }
@@ -132,7 +132,7 @@ $white-color: rgba(255, 255, 255, 0.555);
   // text-decoration: underline;
   color: $active !important;
   font-weight: bold;
-  transform: translateY(-5px);
+  transform: translateY(-3px);
 }
 
 .navigation__caption {
