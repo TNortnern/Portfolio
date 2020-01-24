@@ -2,7 +2,7 @@
   <div
     class="uk-position-relative uk-visible-toggle uk-light project-slider"
     tabindex="-1"
-    uk-slideshow
+    uk-slideshow="autoplay: true; autoplay-interval: 1300"
   >
     <ul :class="project.type === 'Mobile Application' ? 'mobile-project' : ''" class="uk-slideshow-items">
       <li v-for="(image, key) in images" :key="key">

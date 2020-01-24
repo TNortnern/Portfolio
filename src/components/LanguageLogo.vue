@@ -43,4 +43,8 @@ export default {
 .center {
     text-align: center;
 }
+.language-logo {
+    margin-left: 8px;
+    margin-right: 8px;
+}
 </style>

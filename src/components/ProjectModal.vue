@@ -11,9 +11,9 @@
         </div>
         <div class="uk-modal-footer uk-text-center">
           <p>Technologies:</p>
-          <ul class="d-flex">
+          <ul class="d-flex justify-content-center">
             <li class="project-tech" v-for="(t, key) in project.technologies" :key="key">
-              {{ t }} <LanguageLogo :containerstyle="'d-flex justify-content-center'" :styles="'language-logo-sm'" :language="t" />
+              {{ t }} <LanguageLogo :containerstyle="'d-flex'" :styles="'language-logo-sm'" :language="t" />
             </li>
           </ul>
           <p>Description:</p>
