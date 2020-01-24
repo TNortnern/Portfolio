@@ -4,9 +4,8 @@
       <h1 data-aos="zoom-in">About</h1>
       <div>
         <div data-aos="zoom-in-up" class="about__text">
-         Hello I'm Trayvon Northern, the Web Developer. I'm a <a href="#awards" class="scrollactive-item">award winning</a> Computer Science graduate. I enjoy programming and solving problems, as a Web Developer, I prefer the frontend as
-         I'm more of a visual person but not limited to only frontend. I want to keep growing as a Developer so in my free time, I create side-projects trying technologies
-         that I haven't tried.
+         Hello I'm Trayvon Northern, the Web Developer. I'm a <a href="#awards" class="scrollactive-item">award winning</a> Computer Science graduate. I enjoy programming and solving problems. I prefer the frontend as
+         I'm more of a visual person but definitely not limited to only frontend. I want to keep growing as a Developer so in my free time, I create side-projects to learn new technologies.
         </div>
       </div>
       <div class="d-flex justify-content-center about__experience">
