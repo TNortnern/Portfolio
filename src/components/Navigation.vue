@@ -94,8 +94,8 @@ export default {
 
 <style lang="scss" scoped>
 @import "../styles";
-$active: darken(white, 18%);
-$white-color: rgba(255, 255, 255, 0.63);
+$active: white;
+$white-color: rgba(255, 255, 255, 0.555);
 
 .navigation {
   background-image: url("https://images.unsplash.com/photo-1555066931-bf19f8fd1085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80");
@@ -111,14 +111,18 @@ $white-color: rgba(255, 255, 255, 0.63);
   .nav-link {
     color: $white-color;
     &:hover {
-      color: $active;
+      color: white;
     }
   }
 }
 .bg-theme {
   background-color: rgba(0, 0, 0, 0.89);
   a {
-    color: $white-color !important;
+    color: $white-color;
+    transition: .35s ease-in;
+    &:hover {
+      color: white;
+    }
   }
 }
 .bg-transparent {
@@ -128,6 +132,7 @@ $white-color: rgba(255, 255, 255, 0.63);
   // text-decoration: underline;
   color: $active !important;
   font-weight: bold;
+  transform: translateY(-5px);
 }
 
 .navigation__caption {

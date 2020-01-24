@@ -74,9 +74,12 @@ export default {};
     border: none;
     padding-left: 25px;
   }
-  img {
-    // border-radius: 50%;
-    //   width: 80%;
+  a {
+    color: white;
+    font-weight: bold;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 .about__experience {
