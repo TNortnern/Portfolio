@@ -16,7 +16,7 @@ const projects = [
     }
   },
   {
-    name: "Trello Clone(In Progress)",
+    name: "Trello Clone",
     description:
       "An application that allows users to manage task on a more complex level. Uses Redux for global state management.",
     images: [
@@ -27,8 +27,8 @@ const projects = [
     technologies: ["React", "SCSS"],
     type: "Website",
     links: {
-      hosted: "https://amazing-hawking-917781.netlify.com/boards",
-      code: "https://github.com/cb0806151/.NetReactTrelloClone"
+      hosted: "https://trelloreactclone.netlify.com/",
+      code: "https://github.com/TNortnern/TrelloClone-React"
     }
   },
   {
