@@ -72,7 +72,6 @@ const projects = [
     description:
       "A real world app for the Edgewood Creamery company. Customers can order history (place the same order), place a new order, and cancel an order. After the customer submits, this order gets sent to the Creamery as a pdf and a thank you page shows up. It also has a in depth admin panel that makes the admin users feel complete in control.",
     images: [
-      "https://raw.githubusercontent.com/TNortnern/Edgewood-Creamery-Mobile-App/edgewood-fe/Edgewood-FE/assets/logo.png?token=AKOLNBGWDOR6BKTG34HDSPC6GJ6KS",
       "https://i.imgur.com/YWqYiHG.png",
       "https://i.imgur.com/qxFfyt4.png",
       "https://i.imgur.com/Y1DH1iB.png",

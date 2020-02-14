@@ -63,6 +63,7 @@ export default {};
 <style lang="scss" scoped>
 @import "../styles/index.scss";
 .about {
+  padding-bottom: 30px;
   background-color: $theme-color;
   color: white;
   h2,
