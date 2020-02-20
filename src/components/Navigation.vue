@@ -10,7 +10,7 @@
       <div>
         <div data-aos="fade-right">
           <img
-            src="https://images.unsplash.com/photo-1555066932-e78dd8fb77bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+            src="https://u5u9p8d6.stackpathcdn.com/wp-content/uploads/2019/05/042.jpg"
           />
         </div>
         <h1 data-aos="fade-left">Web Developer</h1>
@@ -98,7 +98,7 @@ $active: white;
 $white-color: rgba(255, 255, 255, 0.555);
 
 .navigation {
-  background-image: url("https://images.unsplash.com/photo-1555066931-bf19f8fd1085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80");
+  background-image: url("https://trayvonnorthern.com/portfolio1/images/pg2.jpeg");
   height: 100vh;
   background-size: cover;
   .navigation-toggle--white {
@@ -117,6 +117,7 @@ $white-color: rgba(255, 255, 255, 0.555);
 }
 .bg-theme {
   background-color: rgba(0, 0, 0, 0.89);
+  animation: fade-in .7s;
   a {
     color: $white-color;
     transition: .15s ease-in;
@@ -151,9 +152,9 @@ $white-color: rgba(255, 255, 255, 0.555);
   h1 {
     color: white;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(36, 36, 36, 0.877);
     border-radius: 14px;
-    padding: 20px 0px;
+    padding: 10px 0px;
   }
 }
 .navbar-nav {

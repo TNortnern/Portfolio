@@ -20,14 +20,14 @@
           <p>
             {{ project.description }}
           </p>
-          <a target="__blank" :href="project.links.hosted" class="uk-button uk-button-primary" type="button">
+          <a target="__blank" :href="project.links.hosted" class="uk-button uk-button-secondary" type="button">
             View Project
           </a>
-          <a target="__blank" :href="project.links.code" class="uk-button uk-button-primary" type="button">
+          <a target="__blank" :href="project.links.code" class="uk-button uk-button-secondary" type="button">
             View Code
           </a>
           <button
-            class="uk-button uk-button-default uk-modal-close"
+            class="uk-button uk-button-secondary uk-modal-close"
             type="button"
             @click="$parent.modalItem = null"
           >

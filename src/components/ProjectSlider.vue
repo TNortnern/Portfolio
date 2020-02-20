@@ -2,7 +2,7 @@
   <div
     class="uk-position-relative uk-visible-toggle uk-light project-slider"
     tabindex="-1"
-    uk-slideshow="autoplay: true; autoplay-interval: 1300"
+    uk-slideshow="autoplay: true; autoplay-interval: 1800"
   >
     <ul :class="project.type === 'Mobile Application' ? 'mobile-project' : ''" class="uk-slideshow-items">
       <li v-for="(image, key) in images" :key="key">
@@ -46,12 +46,7 @@ export default {
 
 <style lang="scss">
 @import '../styles/index.scss';
-.project-slider .slider__action, .uk-position-small.uk-hidden-hover {
-  color: $theme-color;
-  &:hover {
-    color: lighten($theme-color, 14%);
-  }
-}
+
 .mobile-project img {
   width: 100% !important;
   height: 100% !important;

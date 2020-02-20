@@ -3,15 +3,15 @@ const projects = [
     name: "Portfolio #2",
     description: "A portfolio about me.",
     images: [
-      "https://i.imgur.com/fVZz8r1.png",
-      "https://i.imgur.com/7dwG8hL.png",
+      "https://i.imgur.com/YRdwYEU.jpg",
+      "https://i.imgur.com/MSqKgoj.jpg",
       "https://i.imgur.com/4lVKQfe.png",
       "https://i.imgur.com/TdpYZnP.png"
     ],
     technologies: ["Vue", "HTML/CSS", "SCSS"],
     type: "Website",
     links: {
-      hosted: "https://trayvonnorthern.com",
+      hosted: "https://tnorthern.netlify.com",
       code: "https://github.com/TNortnern/Portfolio"
     }
   },
@@ -20,9 +20,9 @@ const projects = [
     description:
       "An application that allows users to manage task on a more complex level. Uses Redux for global state management.",
     images: [
-      "https://i.imgur.com/X2NQvyl.png",
+      "https://i.imgur.com/K0bPn8f.png",
       "https://i.imgur.com/jtzOASQ.png",
-      "https://i.imgur.com/K0bPn8f.png"
+      "https://i.imgur.com/X2NQvyl.png"
     ],
     technologies: ["React", "SCSS"],
     type: "Website",
@@ -31,6 +31,25 @@ const projects = [
       code: "https://github.com/TNortnern/TrelloClone-React"
     }
   },
+  {
+    name: "CM Dairy",
+    description:
+      "A dairy product shop that includes logging in, searching for products, and using a fast retainable cart to checkout.",
+    images: [
+      "https://i.imgur.com/k24l30h.jpg",
+      "https://i.imgur.com/TwLbnLw.jpg",
+      "https://i.imgur.com/Et9c3RV.png",
+      "https://i.imgur.com/CiAMlYn.png",
+      "https://i.imgur.com/0surIwS.png"
+    ],
+    technologies: ["Vue", "HTML/CSS", "SCSS", "Laravel"],
+    type: "Website",
+    links: {
+      hosted: "https://cmdairy.netlify.com/",
+      code: "https://github.com/fnicoletta/cow-milk"
+    }
+  },
+
   {
     name: "Northern's Factory",
     description:
@@ -50,6 +69,25 @@ const projects = [
       code: "https://github.com/TNortnern/PHPShoppingSite"
     }
   },
+  // {
+  //   name: "Agency Review",
+  //   description:
+  //     "An agency review projec that asks users to leave feedback and takes action depending on the feedback left.",
+  //   images: [
+  //     "https://i.imgur.com/7D6aQ5T.png",
+  //     "https://i.imgur.com/b9Eg9f4.png",
+  //     "https://i.imgur.com/weGHuQx.png",
+  //     "https://i.imgur.com/MAg2BVi.png",
+  //     "https://i.imgur.com/mmkP8IH.png",
+  //     "https://i.imgur.com/e7AqTQJ.png"
+  //   ],
+  //   technologies: ["Vanilla PHP", "HTML/CSS", "Vanilla JavaScript"],
+  //   type: "Website",
+  //   links: {
+  //     hosted: "https://star-rating.netlify.com/",
+  //     code: "https://github.com/TNortnern/PHPShoppingSite"
+  //   }
+  // },
   {
     name: "AGSelect",
     description:

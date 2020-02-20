@@ -16,3 +16,21 @@ $default-timing: 300ms;
 .slide-leave-to {
   transform: translate(-100%, 0);
 }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(900px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

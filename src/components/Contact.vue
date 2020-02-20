@@ -37,7 +37,7 @@
           <textarea placeholder="Leave me a message..." class="form-control" id="message" rows="3"></textarea>
         </div>
         <div class="mx-auto text-center">
-          <button type="submit" class="btn btn-primary">Contact</button>
+          <button type="submit" class="btn btn-secondary">Contact</button>
         </div>
       </div>
     </form>
@@ -53,6 +53,7 @@ export default {};
 .contact {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1a/Abstract-background-white-12.jpg");
   background-size: cover;
+  padding-bottom: 25px;
   .form-group {
     width: 60%;
     @include small('down') {

@@ -64,7 +64,7 @@ export default {};
 @import "../styles/index.scss";
 .about {
   padding-bottom: 30px;
-  background-color: $theme-color;
+  background-color: #232122;
   color: white;
   h2,
   h1 {
