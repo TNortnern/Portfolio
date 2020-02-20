@@ -5,6 +5,7 @@
     :duration="800"
     bezier-easing-value=".5,0,.35,1"
     class="navigation"
+    uk-parallax="bgy: -250"
   >
     <div class="navigation__caption">
       <div>
@@ -117,7 +118,7 @@ $white-color: rgba(255, 255, 255, 0.555);
 }
 .bg-theme {
   background-color: rgba(0, 0, 0, 0.89);
-  animation: fade-in .7s;
+  animation: slide-from-top .7s;
   a {
     color: $white-color;
     transition: .15s ease-in;
