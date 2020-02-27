@@ -24,7 +24,7 @@ const projects = [
       "https://i.imgur.com/jtzOASQ.png",
       "https://i.imgur.com/X2NQvyl.png"
     ],
-    technologies: ["React", "SCSS"],
+    technologies: ["React", "Redux", "SCSS"],
     type: "Website",
     links: {
       hosted: "https://trelloreactclone.netlify.com/",
@@ -47,6 +47,21 @@ const projects = [
     links: {
       hosted: "https://cmdairy.netlify.com/",
       code: "https://github.com/fnicoletta/cow-milk"
+    }
+  },
+  {
+    name: "Products Overview",
+    description: "Get the overview of your company products.",
+    images: [
+      "https://i.imgur.com/KsK1bt4.png",
+      "https://i.imgur.com/0JUawwA.png",
+      "https://i.imgur.com/JreAUi0.png",
+    ],
+    technologies: ["React", "Redux", "SCSS"],
+    type: "Website",
+    links: {
+      hosted: "https://product-pie-chart.netlify.com/",
+      code: "https://github.com/TNortnern/PieChart"
     }
   },
 

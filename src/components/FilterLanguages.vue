@@ -59,6 +59,7 @@ export default {
       { name: "Vue", image: "/" },
       { name: "React", image: "/" },
       { name: "React Native", image: "/" },
+      {name: "Redux", image: "/"},
       { name: "SCSS", image: "/" }
     ],
     included: []

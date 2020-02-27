@@ -8,6 +8,7 @@
       <img :width="width" :height="height" :class="styles" class="language-logo" v-if="language == 'React'" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" alt="">
       <img :width="width" :height="height" :class="styles" class="language-logo" v-if="language == 'React Native'" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" alt="">
       <img :width="width" :height="height" :class="styles" class="language-logo" v-if="language == 'SCSS'" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/2000px-Sass_Logo_Color.svg.png" alt="">
+      <img :width="width" :height="height" :class="styles" class="language-logo" v-if="language == 'Redux'" src="https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png" alt="">
   </div>
 </template>
 
