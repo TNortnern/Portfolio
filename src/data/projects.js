@@ -55,7 +55,7 @@ const projects = [
     images: [
       "https://i.imgur.com/KsK1bt4.png",
       "https://i.imgur.com/0JUawwA.png",
-      "https://i.imgur.com/JreAUi0.png",
+      "https://i.imgur.com/JreAUi0.png"
     ],
     technologies: ["React", "Redux", "SCSS"],
     type: "Website",
@@ -155,14 +155,14 @@ const projects = [
   },
   {
     name: "UOGO College",
-    description:
-      "A prototype university website. Students can sign up and register for courses and drop courses. Instructors can create new courses, modify course options, drop and enroll users, and see what courses their taken and what users are enrolled in their courses.",
+    description: "A prototype university website.",
+    //  Students can sign up and register for courses and drop courses. Instructors can create new courses, modify course options, drop and enroll users, and see what courses their taken and what users are enrolled in their courses.
     images: [
       "https://i.imgur.com/EYobitZ.png",
       "https://i.imgur.com/jHe746Z.jpg",
       "https://i.imgur.com/ajjKm9K.png"
     ],
-    technologies: ["Laravel", "Vue", "HTML/CSS", "SCSS"],
+    technologies: ["Vue", "HTML/CSS", "SCSS"],
     type: "Website",
     links: {
       hosted: "http://uogo2.herokuapp.com/",
