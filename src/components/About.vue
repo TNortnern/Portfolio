@@ -13,8 +13,8 @@
           <div data-aos="fade-left" class="about__experience-item">
             <div>
               <img
-                src="http://res.publicdomainfiles.com/pdf_view/95/13946356211860.png"
-                alt=""
+                src="https://i.imgur.com/OO5J9Yo.png"
+                alt="professional"
               />
             </div>
             <div>

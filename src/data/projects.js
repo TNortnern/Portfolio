@@ -80,7 +80,7 @@ const projects = [
     technologies: ["Vanilla PHP", "HTML/CSS", "Vanilla JavaScript"],
     type: "Website",
     links: {
-      hosted: "http://trayvonnorthern.com/northernsfactory/",
+      hosted: "https://trayvonnorthern.com/northernsfactory/",
       code: "https://github.com/TNortnern/PHPShoppingSite"
     }
   },
@@ -165,7 +165,7 @@ const projects = [
     technologies: ["Vue", "HTML/CSS", "SCSS"],
     type: "Website",
     links: {
-      hosted: "http://uogo2.herokuapp.com/",
+      hosted: "https://uogo2.herokuapp.com/",
       code: "https://github.com/TNortnern/College"
     }
   }

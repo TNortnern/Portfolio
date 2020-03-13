@@ -2,7 +2,6 @@
   <div data-aos="fade-up" data-aos-duration="1200" id="contact" class="contact">
     <h1 class="text-center">Contact Me</h1>
     <form
-      action="mailto:traynorthern@yahoo.com?subject=Oppurtunity"
       class="container mx-auto"
     >
       <div>
