@@ -27,7 +27,7 @@ const projects = [
     technologies: ["React", "Redux", "SCSS"],
     type: "Website",
     links: {
-      hosted: "https://trelloreactclone.netlify.com/",
+      hosted: "https://trello-clone-react.now.sh/",
       code: "https://github.com/TNortnern/TrelloClone-React"
     }
   },
