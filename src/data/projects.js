@@ -6,14 +6,30 @@ const projects = [
       "https://i.imgur.com/YRdwYEU.jpg",
       "https://i.imgur.com/MSqKgoj.jpg",
       "https://i.imgur.com/4lVKQfe.png",
-      "https://i.imgur.com/TdpYZnP.png"
+      "https://i.imgur.com/TdpYZnP.png",
     ],
     technologies: ["Vue", "HTML/CSS", "SCSS"],
     type: "Website",
     links: {
       hosted: "https://tnorthern.netlify.com",
-      code: "https://github.com/TNortnern/Portfolio"
-    }
+      code: "https://github.com/TNortnern/Portfolio",
+    },
+  },
+  {
+    name: "Get Agency Reviews",
+    description:
+      "A real estate review website that allows agents to email clients they've done business with to leave reviews about them to help them improve or better their ratings.",
+    images: [
+      "https://i.imgur.com/POernas.png",
+      "https://i.imgur.com/QgNfxmE.png",
+      "https://i.imgur.com/iqZ8xou.png",
+    ],
+    technologies: ["Vue", "Laravel", "SCSS"],
+    type: "Website",
+    links: {
+      hosted: "https://agency3.now.sh/",
+      code: "https://github.com/ezl/getagentreviews-survey",
+    },
   },
   {
     name: "Trello Clone",
@@ -22,14 +38,14 @@ const projects = [
     images: [
       "https://i.imgur.com/K0bPn8f.png",
       "https://i.imgur.com/jtzOASQ.png",
-      "https://i.imgur.com/X2NQvyl.png"
+      "https://i.imgur.com/X2NQvyl.png",
     ],
     technologies: ["React", "Redux", "SCSS"],
     type: "Website",
     links: {
       hosted: "https://trello-clone-react.now.sh/",
-      code: "https://github.com/TNortnern/TrelloClone-React"
-    }
+      code: "https://github.com/TNortnern/TrelloClone-React",
+    },
   },
   {
     name: "CM Dairy",
@@ -40,14 +56,14 @@ const projects = [
       "https://i.imgur.com/TwLbnLw.jpg",
       "https://i.imgur.com/Et9c3RV.png",
       "https://i.imgur.com/CiAMlYn.png",
-      "https://i.imgur.com/0surIwS.png"
+      "https://i.imgur.com/0surIwS.png",
     ],
     technologies: ["Vue", "HTML/CSS", "SCSS", "Laravel"],
     type: "Website",
     links: {
       hosted: "https://cmdairy.netlify.com/",
-      code: "https://github.com/fnicoletta/cow-milk"
-    }
+      code: "https://github.com/fnicoletta/cow-milk",
+    },
   },
   {
     name: "Products Overview",
@@ -55,14 +71,14 @@ const projects = [
     images: [
       "https://i.imgur.com/KsK1bt4.png",
       "https://i.imgur.com/0JUawwA.png",
-      "https://i.imgur.com/JreAUi0.png"
+      "https://i.imgur.com/JreAUi0.png",
     ],
     technologies: ["React", "Redux", "SCSS"],
     type: "Website",
     links: {
       hosted: "https://product-pie-chart.netlify.com/",
-      code: "https://github.com/TNortnern/PieChart"
-    }
+      code: "https://github.com/TNortnern/PieChart",
+    },
   },
 
   {
@@ -75,14 +91,14 @@ const projects = [
       "https://i.imgur.com/weGHuQx.png",
       "https://i.imgur.com/MAg2BVi.png",
       "https://i.imgur.com/mmkP8IH.png",
-      "https://i.imgur.com/e7AqTQJ.png"
+      "https://i.imgur.com/e7AqTQJ.png",
     ],
     technologies: ["Vanilla PHP", "HTML/CSS", "Vanilla JavaScript"],
     type: "Website",
     links: {
       hosted: "https://trayvonnorthern.com/northernsfactory/",
-      code: "https://github.com/TNortnern/PHPShoppingSite"
-    }
+      code: "https://github.com/TNortnern/PHPShoppingSite",
+    },
   },
   // {
   //   name: "Agency Review",
@@ -111,14 +127,14 @@ const projects = [
       "https://i.imgur.com/ayHrjvT.png",
       "https://i.imgur.com/n16LDiq.png",
       "https://i.imgur.com/PJQHm4M.png",
-      "https://i.imgur.com/luEEuv0.png"
+      "https://i.imgur.com/luEEuv0.png",
     ],
     technologies: ["HTML/CSS", "Vanilla JavaScript"],
     type: "Website",
     links: {
       hosted: "https://trayvonnorthern.com/Agselect/",
-      code: "https://github.com/TNortnern/AgSelect-website"
-    }
+      code: "https://github.com/TNortnern/AgSelect-website",
+    },
   },
   {
     name: "Edgewood Creamery",
@@ -129,14 +145,14 @@ const projects = [
       "https://i.imgur.com/qxFfyt4.png",
       "https://i.imgur.com/Y1DH1iB.png",
       "https://i.imgur.com/rA8Ny4X.png",
-      "https://i.imgur.com/PezfCJF.png"
+      "https://i.imgur.com/PezfCJF.png",
     ],
     technologies: ["React Native", "React", "Laravel"],
     type: "Mobile Application",
     links: {
       hosted: "https://expo.io/@tnorthern/Edgewood-FE",
-      code: "https://github.com/TNortnern/Edgewood-Creamery-Mobile-App"
-    }
+      code: "https://github.com/TNortnern/Edgewood-Creamery-Mobile-App",
+    },
   },
   {
     name: "Portfolio #1",
@@ -144,14 +160,14 @@ const projects = [
     images: [
       "https://i.imgur.com/EubKbam.png",
       "https://i.imgur.com/bRNfCeU.png",
-      "https://i.imgur.com/RHS2vxz.png"
+      "https://i.imgur.com/RHS2vxz.png",
     ],
     technologies: ["Vue", "HTML/CSS", "Vanilla JavaScript"],
     type: "Website",
     links: {
       hosted: "https://trayvonnorthern.com/portfolio1",
-      code: "https://github.com/TNortnern/Portfolio-VueJs"
-    }
+      code: "https://github.com/TNortnern/Portfolio-VueJs",
+    },
   },
   {
     name: "UOGO College",
@@ -160,15 +176,15 @@ const projects = [
     images: [
       "https://i.imgur.com/EYobitZ.png",
       "https://i.imgur.com/jHe746Z.jpg",
-      "https://i.imgur.com/ajjKm9K.png"
+      "https://i.imgur.com/ajjKm9K.png",
     ],
     technologies: ["Vue", "HTML/CSS", "SCSS"],
     type: "Website",
     links: {
       hosted: "https://uogo2.herokuapp.com/",
-      code: "https://github.com/TNortnern/College"
-    }
-  }
+      code: "https://github.com/TNortnern/College",
+    },
+  },
 ];
 
 export default projects;
